@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+main{
+    width: 343px;
+    height: 524px;
+    border-radius: 22px;
+    background: #FFF;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    width: 308px;
+    height: 303px;
+    border-radius: 13px;
+    background: url("../images/image-qr-code.png"), lightgray 50% / cover no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+.prf1{
+    width: 287px;
+    height: 55px;
+    color: #1F3251;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.prf2{
+    width: 260px;
+    color: #7B879D;
+    font-family: Outfit;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
